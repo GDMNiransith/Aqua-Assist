@@ -57,62 +57,78 @@ router.post('/add', upload.fields([{ name: 'paymentSlip' }]), async (req, res) =
   }
 });
 
-// GET all donations
-router.get('/', async (req, res) => {
-  try {
-    // Retrieve all donations from the database
-    const donations = await Donation.find();
 
-    // Extract the required fields from each donation
-    const donationData = donations.map((donation) => ({
-      issuename: donation.issuename,
-      fullname: donation.fullname,
-      nic: donation.nic,
-      gender: donation.gender,
-      email: donation.email,
-      phoneNumber: donation.phoneNumber,
-      bank: donation.bank,
-      branch: donation.branch,
-      amount: donation.amount,
-      paymentSlip: donation.paymentSlip,
-      _id: donation._id, // Add the _id field
-    }));
 
-    res.status(200).json(donationData);
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ error: 'An error occurred while retrieving the data' });
+// UPDATE an existing donation by id
+router.put('/:id', getDonation, async (req, res) => {
+  const {
+    issuename,
+    fullname,
+    nic,
+    email,
+    phoneNumber,
+    bank,
+    branch,
+    amount,
+  } = req.body;
+
+  if (issuename) {
+    res.donation.issuename = issuename;
   }
-});
 
-// GET a single donation by id
-router.get("/:id", getDonation, (req, res) => {
-  res.json(res.donation);
-});
+  if (fullname) {
+    res.donation.fullname = fullname;
+  }
 
-// CREATE a new donation
-router.post("/", async (req, res) => {
-  const donation = new Donation({
-    issuename: req.body.issuename,
-    fullname: req.body.fullname,
-    nic: req.body.nic,
-    gender: req.body.gender,
-    email: req.body.email,
-    phoneNumber: req.body.phoneNumber,
-    bank: req.body.bank,
-    branch: req.body.branch,
-    amount: req.body.amount,
-    paymentSlip: req.body.paymentSlip,
-  });
+  if (nic) {
+    res.donation.nic = nic;
+  }
+
+
+  if (email) {
+    res.donation.email = email;
+  }
+
+  if (phoneNumber) {
+    res.donation.phoneNumber = phoneNumber;
+  }
+
+  if (bank) {
+    res.donation.bank = bank;
+  }
+
+  if (branch) {
+    res.donation.branch = branch;
+  }
+
+  if (amount) {
+    res.donation.amount = amount;
+  }
 
   try {
-    const newDonation = await donation.save();
-    res.status(201).json(newDonation);
+    const updatedDonation = await res.donation.save();
+    res.json(updatedDonation);
   } catch (err) {
     res.status(400).json({ message: err.message });
   }
 });
 
 
+
+// Middleware function to get a donation by id
+async function getDonation(req, res, next) {
+  let donation;
+  try {
+    donation = await Donation.findById(req.params.id);
+    if (donation == null) {
+      return res.status(404).json({ message: "Donation not found" });
+    }
+  } catch (err) {
+    return res.status(500).json({ message: err.message });
+  }
+
+  res.donation = donation;
+  next();
+}
 
 module.exports = router;

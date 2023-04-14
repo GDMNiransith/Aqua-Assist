@@ -1,0 +1,57 @@
+#Start {
+    background-color: #000000;
+    background-image: url('https://hdqwalls.com/wallpapers/water-drop-closeup-macro-4k-1x.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+  }
+  
+  .display-4 {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+  
+  .lead {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    user-select: none;
+  }
+  
+  .btn-light {
+    background-color: #fff;
+    color: #222;
+  }
+  
+  .btn-light:hover {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .rounded-pill {
+    border-radius: 50px;
+  }
+  
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .text-white {
+    color: #062715;
+  }
+  

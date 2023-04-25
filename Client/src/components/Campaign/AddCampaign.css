@@ -1,0 +1,64 @@
+.AddCampaign-form {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.AddCampaign-form h1 {
+  margin-bottom: 20px;
+}
+
+.AddCampaign-form .form-row {
+  margin-bottom: 20px;
+}
+
+.AddCampaign-form .form-row label {
+  font-weight: 500;
+}
+
+.AddCampaign-form .form-row .form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.AddCampaign-form .form-row .form-control-file {
+  display: none;
+}
+
+.AddCampaign-form .form-row .custom-file-upload {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.AddCampaign-form .form-row .custom-file-upload:hover {
+  background-color: #e9ecef;
+}
+
+.AddCampaign-form .form-row .invalid-feedback {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.AddCampaign-form .form-row .valid-feedback {
+  color: #28a745;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.AddCampaign-form .form-row .btn-post {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.AddCampaign-form .form-row .btn-post:hover {
+  background-color: #343a40;
+  color: #fff;
+}

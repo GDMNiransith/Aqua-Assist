@@ -26,7 +26,25 @@ const EditUser = () => {
       console.error(error);
     }
   };
+
+  const handleChange = (e) => {
+    setUser({ ...user, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    navigate('/myprofile');
   
+    try {
+      await axios.put(`http://localhost:4000/register/${id}`, user);
+      alert("User has been updated successfully!");
+    } catch (error) {
+      console.error(error);
+      alert("Something went wrong!");
+    }
+  };
+  
+
   return (
     <div>
       <div className="container" style={{ width: "30%" }}>

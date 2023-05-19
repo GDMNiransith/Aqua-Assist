@@ -27,7 +27,7 @@ function Issue() {
         <br></br><br></br>
         {campaign.map((c) => (
           <Card style={{ width: '50rem' }}>
-            <Card.Img variant="top" src={c.notice} />
+            <Card.Img variant="top" src={`http://127.0.0.1:8773/Project/aqua%20v3/server/${c.notice}`}  />
             <Card.Body>
               <Card.Title>{c.campaignName}</Card.Title>
               <Card.Text>

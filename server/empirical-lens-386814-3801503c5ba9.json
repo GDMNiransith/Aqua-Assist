@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "empirical-lens-386814",
+  "private_key_id": "3801503c5ba970e2893939c85efb316d57cdee93",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCzyTBkuKdd/xmU\nF55XQaD4XDL4GsR5NIZ53evFkce45znMLpgkLra1J4ZZylT48kXeeZZIQBr86rOx\nS7QqGfIYRqrdP57Yw13A+oVXSL+lgQ6c3qjZ9+wYQ9D19M339NEwVN8shtfN/uhI\nSZO2HDdNBaVTcyYr6R4xt7t/pnJvzqrEYLWCXWR53MyS7sYXQgG1wc78AvRZgxe4\n9cFnOsgt7JJ54pjWbvHUsDDWZG/XSYzXfeV6WaO8QJZJDjcvE/MTOHDOj6oNuBks\nnOfL877HS3jxuigX+54oW1P+880oNpmnQgd6NixMwOAKU6lA+cMmTNJiaSDeYv5N\n1Y2ZP9wRAgMBAAECggEAE/h+3otX9RQlk1qZyUPGJZx5QW/YwAV2hCJDgsFmK/sM\nY6rP1eIWA9K5hO8ZqAMigXtkVw9+5/YKwqCgCVazOqDb8UJ0SswN1aZGaksPlcr7\nlG+T1k2IvWvIEhAw0nCwjYO5/CxY274rb38z0CR7fJvqUNYfSPym0NtB0cTLnLFq\nwk5t2HLCV9Vk/NNoefzsaxyy+vkPpUR0uOJRhFL/AlQ4zFa2jPZ7DlUYyT7ikbTs\n2C/3CACCVUsUWKDB6j7J5avrVlBjJRNMYFLN1+EiE8EzaX+2TbIt4SbDS5hmsHks\nOiVlHzGV4wGMy9bQatYHpUE4fZmojTSCE3yixjoiOQKBgQDZiCyG8KZ+D5INWBVK\nKlQjCQ3flhZ+TEC4HYEjybs6mmyYxgH0/1HqkkYlsl6z+UnLW5dP4QNYov3cq2dX\no2+vI90TrGx2xqYn3eDLR5kmXQDmKTTTiFk16mu2XCDYkubrpotnsnt1bMahTFnu\nfMDH9b9gXUMnAt4JqUl86JhESQKBgQDTlDmgkRGqPU6ZeNdRz0wJkQBmLlI+S1Kc\niXisBy3BWsmaW7RD3hw26Siyk+QNR96DjJ6q8g/9gRk1FUtRiL38/7g8RHbZ/m74\nVzvukSDpknrig46ZVa/PtYG1Q25OadNDAC+dVmSEQoSIBaAnd2RxI0GCm16vCN4T\nsst8VPbJiQKBgAtLmdxL5KlJD7FnsHtQZVwIXVMNzQ8z0Gx/A7SjBfjOCfOI3JMn\nKs6+V6wfbfF0cVOA5wN70JuqovnxYIVZdDQo7ZLW8i7cs8YALGsBxb8LNz+8RgTx\n4If/Kyal9AKq5hi4Zia1StnXEx1PBKBwk+YOKajMTu9Yo8TmqG02+qkZAoGBAIuR\nCF6Js2xoGpQUaXzW0KKy2t+MiMX869bEvCxGZAFbAQfonEX0mwoBzc3WzqWQFhES\nzouXN8MSyO0CSffTyve8O+zNgNUWCF+bM7aQV3ScIqGPBJ7TLjFG2vQWMgpZtnlJ\nAx+3oIC6XDBZ/aZrFH+pMQqVsOSnZc76r04pwc15AoGBANhnqUPyhEcpuncEYGmd\nBFpoME+ztDVQl/BNov/0ipF5Qtb6wsb+lJ2qn2dGzigomfifV7fI+zjfmjfrX1LG\nvoUd9yHcZAfym8To8axOlw4uSjefPk0IlXia61K2rXEcGMAXdpulnbEIqIFZD10F\ngRJak7iRYLMCwrGVKPZMtQrl\n-----END PRIVATE KEY-----\n",
+  "client_email": "aquaproject@empirical-lens-386814.iam.gserviceaccount.com",
+  "client_id": "110341287334846745484",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/aquaproject%40empirical-lens-386814.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

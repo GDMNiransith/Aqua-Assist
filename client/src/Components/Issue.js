@@ -27,7 +27,7 @@ function Issue() {
         <br></br><br></br>
         {issue.map((i) => (
           <Card style={{ width: '70rem' }}>
-            <Card.Img variant="top" src={i.image} />
+            <Card.Img variant="top" src={`http://127.0.0.1:8773/Project/aqua%20v3/server/IssueImages/${i.image}`} />
             <Card.Body>
               <Card.Title>{i.issueHeader}</Card.Title>
               <Card.Text>

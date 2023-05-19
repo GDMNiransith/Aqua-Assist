@@ -93,6 +93,7 @@ function App() {
             <Route path="/addNextCampaign" element={<AddNextCampaign />} />
             <Route path="/addInventory" element={<AddInventory />} />
             <Route path="/issue" element={<Issue />} />
+            <Route path="/campaign" element={<Campaign />} />
             <Route path="/myIssue" element={<MyIssue />} />
             <Route path="/myDonation" element={<MyDonation />} />
             <Route path="/addDonation" element={<AddDonation />} />
@@ -100,7 +101,6 @@ function App() {
             <Route path="/donation/update/:id" element={<EditDonation/>} />
             <Route path="/register/update/:id" element={<EditProfile/>} />
             <Route path="/campaign/update/:id" element={<EditCampaign />} />
-            <Route path="/campaign" element={<Campaign />} />
             
 
                    

@@ -9,7 +9,7 @@ import { FaUserAlt,FaHandHoldingUsd,FaHandHoldingWater,FaHandHolding } from "rea
 export default function sidebar() {
 
     return (
-        <div >
+        <div  >
             <SideNav style={{
                 background: '#0E1E2B', width: '20vh'
             }}

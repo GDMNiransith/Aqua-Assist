@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const multer = require('multer');
 
-const upload = multer({ dest: 'Notices' });
+const upload = multer({ dest: 'CampaignNotices' });
 
 
 const Campaign = require('../model/Campaign');
@@ -65,7 +65,7 @@ router.get('/', async (req, res) => {
       description: campagin.description,
       requirements:campagin.requirements,
       
-      notice: '../../server/CampaignNotice/' + campagin.image// Add the _id field
+      notice: '../../server/CampaignNotices' + campagin.notice// Add the _id field
     }));
 
     res.status(200).json(campaginData);

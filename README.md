@@ -9,7 +9,7 @@ This repository contains the code and documentation for my college project. The 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributors](#contributing)
-- [License](#license)
+
 
 ## Overview
 
@@ -36,12 +36,4 @@ You can also include code examples or screenshots to illustrate the usage if nee
 ### Member 3 - it21048678 Niransith G.D.M
 ### Member 4 - IT21050626 Gamage A.G.R.U.
 
-## License
 
-Specify the license under which your project is distributed. Include any relevant terms or conditions. If you have chosen an open-source license, provide a link to the license file.
-
----
-
-Feel free to customize the sections and content to suit your specific project requirements. Make sure to keep the README concise, informative, and well-structured to help others understand and use your project effectively.
-
-If you have any questions or need further assistance, please don't hesitate to reach out.

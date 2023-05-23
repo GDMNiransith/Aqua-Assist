@@ -1,0 +1,44 @@
+.campaign-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    height: 50px;
+    width: 40%;
+    border-radius: 10px;
+  }
+  
+  .btn a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  .badge {
+    font-size: 1rem;
+    margin-left: 10px;
+    position: relative;
+    top: -2px;
+  }
+  

@@ -31,10 +31,10 @@ You can also include code examples or screenshots to illustrate the usage if nee
 
 ## Contributing
 
-# Group Leader -IT21035012 Munasinghe S D
-# Member 2 - IT21099854 Ranaweera H.D.T.N.
-# Member 3 - it21048678 Niransith G.D.M
-# Member 4 - IT21050626 Gamage A.G.R.U.
+### Group Leader -IT21035012 Munasinghe S D
+### Member 2 - IT21099854 Ranaweera H.D.T.N.
+### Member 3 - it21048678 Niransith G.D.M
+### Member 4 - IT21050626 Gamage A.G.R.U.
 
 ## License
 

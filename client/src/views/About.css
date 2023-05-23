@@ -1,0 +1,77 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .fs-5 {
+    font-size: 18px;
+  }
+  
+  .display-6 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .lead {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  
+  b {
+    font-weight: bold;
+  }
+  
+  .my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .mt-5 {
+    margin-top: 3rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .w-75 {
+
+      width: 800px; 
+      height: 40%; 
+      display:block ; 
+      margin: 0 auto; 
+      border-radius: 10%; 
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* adds a shadow effect to the image */
+    }
+  
+  

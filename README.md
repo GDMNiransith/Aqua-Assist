@@ -7,7 +7,6 @@ Aqua Assist is a web-based platform designed to provide assistance with water-re
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributors](#contributing)
 
 
@@ -27,11 +26,14 @@ Donation Management: The Donation Management function facilitates monetary contr
 
 ## Installation
 
-Downlad the full zip file from the repositray 
-
-## Usage
-
-Describe how users can utilize the Aqua Assist platform effectively. Provide guidelines on how to navigate the website, create user accounts, post issues, browse campaigns, and make donations. Include any specific instructions or features that may enhance the user experience.
+-Downlad the zip file from the repository
+-Extract it to a folder of your choosing
+-Open Command Prompt from within the folder and give the command "code ."
+-Then VSCode will open automatically and show the project files.
+-Open the terminal in VSCode and enter the prompt "cd server" and then install the relevent node modules by giving the command "npm install".
+-Then open another terminal and enter the prompt "cd client" and then install the relevent node modules by giving the command "npm install".
+-after the installation is complete run the command "npm run dev" while in the server directory, and also run the command "npm start" while in the client directory.
+-Then the default browser will be opened and be redirected to the web application.
 
 ## Contributing
 
